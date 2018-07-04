@@ -1,0 +1,42 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 64 48)
+	(text "A0rom" (rect 13 1 57 17)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 32 25 44)(font "Arial" ))
+	(port
+		(pt 64 24)
+		(output)
+		(text "result[7..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "result[7..0]" (rect 61 -25 74 24)(font "Arial" (font_size 8))(invisible))
+		(line (pt 64 24)(pt 48 24)(line_width 3))
+	)
+	(drawing
+		(text "160" (rect 33 18 48 30)(font "Arial" ))
+		(text "8" (rect 55 25 60 37)(font "Arial" ))
+		(line (pt 16 16)(pt 48 16)(line_width 1))
+		(line (pt 48 16)(pt 48 32)(line_width 1))
+		(line (pt 48 32)(pt 16 32)(line_width 1))
+		(line (pt 16 32)(pt 16 16)(line_width 1))
+		(line (pt 50 28)(pt 58 20)(line_width 1))
+	)
+)

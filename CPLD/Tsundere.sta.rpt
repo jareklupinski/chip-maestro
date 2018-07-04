@@ -1,0 +1,481 @@
+TimeQuest Timing Analyzer report for Tsundere
+Sat Nov 20 22:51:58 2010
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Setup: 'SCLK'
+ 12. Hold: 'SCLK'
+ 13. Minimum Pulse Width: 'SCLK'
+ 14. Setup Times
+ 15. Hold Times
+ 16. Clock to Output Times
+ 17. Minimum Clock to Output Times
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Setup Transfers
+ 21. Hold Transfers
+ 22. Report TCCS
+ 23. Report RSKM
+ 24. Unconstrained Paths
+ 25. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                   ;
++--------------------+----------------------------------------------------------------+
+; Quartus II Version ; Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition ;
+; Revision Name      ; Tsundere                                                       ;
+; Device Family      ; MAX3000A                                                       ;
+; Device Name        ; EPM3032ALC44-10                                                ;
+; Timing Models      ; Final                                                          ;
+; Delay Model        ; Slow Model                                                     ;
+; Rise/Fall Delays   ; Unavailable                                                    ;
++--------------------+----------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                           ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+----------+
+; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets  ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+----------+
+; SCLK       ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { SCLK } ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+----------+
+
+
++--------------------------------------------------+
+; Fmax Summary                                     ;
++------------+-----------------+------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name ; Note ;
++------------+-----------------+------------+------+
+; 102.04 MHz ; 102.04 MHz      ; SCLK       ;      ;
++------------+-----------------+------------+------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++--------------------------------+
+; Setup Summary                  ;
++-------+--------+---------------+
+; Clock ; Slack  ; End Point TNS ;
++-------+--------+---------------+
+; SCLK  ; -8.800 ; -131.200      ;
++-------+--------+---------------+
+
+
++-------------------------------+
+; Hold Summary                  ;
++-------+-------+---------------+
+; Clock ; Slack ; End Point TNS ;
++-------+-------+---------------+
+; SCLK  ; 5.600 ; 0.000         ;
++-------+-------+---------------+
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
++--------------------------------+
+; Minimum Pulse Width Summary    ;
++-------+--------+---------------+
+; Clock ; Slack  ; End Point TNS ;
++-------+--------+---------------+
+; SCLK  ; -3.500 ; -112.000      ;
++-------+--------+---------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'SCLK'                                                                                                                                                                                                      ;
++--------+------------------------------------------------------------------+------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                                                        ; To Node                                                          ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+------------------------------------------------------------------+------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; -8.800 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[0]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 7.000      ;
+; -8.800 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 7.000      ;
+; -8.800 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 7.000      ;
+; -8.800 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 7.000      ;
+; -8.800 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 7.000      ;
+; -8.800 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 7.000      ;
+; -8.800 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 7.000      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[8]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[8]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[9]  ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[9]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[10] ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[10] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[11] ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[11] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[12] ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[12] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[13] ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[13] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[14] ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
+; -8.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[14] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[15] ; SCLK         ; SCLK        ; 1.000        ; 0.000      ; 6.900      ;
++--------+------------------------------------------------------------------+------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'SCLK'                                                                                                                                                                                                      ;
++-------+------------------------------------------------------------------+------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                                                        ; To Node                                                          ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+------------------------------------------------------------------+------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[8]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[8]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[9]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[9]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[10] ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[10] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[11] ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[11] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[12] ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[12] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[13] ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[13] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[14] ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.600 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[14] ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[15] ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 6.900      ;
+; 5.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[0]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 7.000      ;
+; 5.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 7.000      ;
+; 5.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 7.000      ;
+; 5.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 7.000      ;
+; 5.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 7.000      ;
+; 5.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 7.000      ;
+; 5.700 ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]  ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]  ; SCLK         ; SCLK        ; 0.000        ; 0.000      ; 7.000      ;
++-------+------------------------------------------------------------------+------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'SCLK'                                                                                                                       ;
++--------+--------------+----------------+------------------+-------+------------+------------------------------------------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                                                           ;
++--------+--------------+----------------+------------------+-------+------------+------------------------------------------------------------------+
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[0]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[0]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[10] ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[10] ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[11] ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[11] ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[12] ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[12] ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[13] ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[13] ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[14] ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[14] ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[15] ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[15] ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[1]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[2]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[3]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[4]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[5]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[6]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[7]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[8]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[8]  ;
+; -3.500 ; 0.500        ; 4.000          ; High Pulse Width ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[9]  ;
+; -3.500 ; 0.500        ; 4.000          ; Low Pulse Width  ; SCLK  ; Rise       ; lpm_shiftreg0:inst7|lpm_shiftreg:lpm_shiftreg_component|dffs[9]  ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; SCLK|dataout                                                     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; SCLK|dataout                                                     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[0]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[0]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[10]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[10]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[11]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[11]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[12]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[12]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[13]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[13]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[14]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[14]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[15]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[15]|[1]                        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[1]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[1]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[2]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[2]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[3]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[3]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[4]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[4]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[5]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[5]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[6]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[6]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[7]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[7]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[8]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[8]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[9]|[1]                         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; SCLK  ; Rise       ; inst7|lpm_shiftreg_component|dffs[9]|[1]                         ;
++--------+--------------+----------------+------------------+-------+------------+------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------+
+; Setup Times                                                           ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; SERIALIN  ; SCLK       ; 3.500 ; 3.500 ; Rise       ; SCLK            ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Hold Times                                                            ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; SERIALIN  ; SCLK       ; 0.600 ; 0.600 ; Rise       ; SCLK            ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Clock to Output Times                                                   ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; D[*]      ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[0]     ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[1]     ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[2]     ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[3]     ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[4]     ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[5]     ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[6]     ; SCLK       ; 16.300 ; 16.300 ; Rise       ; SCLK            ;
+;  D[7]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                           ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; D[*]      ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[0]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[1]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[2]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[3]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[4]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[5]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[6]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
+;  D[7]     ; SCLK       ; 16.200 ; 16.200 ; Rise       ; SCLK            ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; /CE        ; D[0]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[1]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[2]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[3]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[4]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[5]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[6]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[7]        ; 15.300 ;        ;        ; 15.300 ;
+; A[0]       ; D[0]        ; 10.100 ;        ;        ; 10.100 ;
+; A[0]       ; D[1]        ; 10.100 ;        ;        ; 10.100 ;
+; A[0]       ; D[2]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[3]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[4]        ; 10.100 ;        ;        ; 10.100 ;
+; A[0]       ; D[5]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[6]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[7]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; Interrupt   ; 10.100 ;        ;        ; 10.100 ;
+; A[1]       ; D[0]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[1]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[2]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[3]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[4]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[5]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[6]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[7]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; Interrupt   ; 10.100 ;        ;        ; 10.100 ;
+; A[2]       ; D[0]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[1]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[2]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[3]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[4]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[5]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[6]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[2]       ; D[7]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[2]       ; Interrupt   ;        ; 10.100 ; 10.100 ;        ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; /CE        ; D[0]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[1]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[2]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[3]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[4]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[5]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[6]        ; 15.300 ;        ;        ; 15.300 ;
+; /CE        ; D[7]        ; 15.300 ;        ;        ; 15.300 ;
+; A[0]       ; D[0]        ; 10.100 ;        ;        ; 10.100 ;
+; A[0]       ; D[1]        ; 10.100 ;        ;        ; 10.100 ;
+; A[0]       ; D[2]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[3]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[4]        ; 10.100 ;        ;        ; 10.100 ;
+; A[0]       ; D[5]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[6]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; D[7]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[0]       ; Interrupt   ; 10.100 ;        ;        ; 10.100 ;
+; A[1]       ; D[0]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[1]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[2]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[3]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[4]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[5]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[6]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; D[7]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[1]       ; Interrupt   ; 10.100 ;        ;        ; 10.100 ;
+; A[2]       ; D[0]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[1]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[2]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[3]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[4]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[5]        ;        ; 10.100 ; 10.100 ;        ;
+; A[2]       ; D[6]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[2]       ; D[7]        ; 10.100 ; 10.100 ; 10.100 ; 10.100 ;
+; A[2]       ; Interrupt   ;        ; 10.100 ; 10.100 ;        ;
++------------+-------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------------+
+; Setup Transfers                                                   ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; SCLK       ; SCLK     ; 15       ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Hold Transfers                                                    ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; SCLK       ; SCLK     ; 15       ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 5     ; 5    ;
+; Unconstrained Input Port Paths  ; 36    ; 36   ;
+; Unconstrained Output Ports      ; 9     ; 9    ;
+; Unconstrained Output Port Paths ; 51    ; 51   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Sat Nov 20 22:51:56 2010
+Info: Command: quartus_sta Tsundere -c Tsundere
+Info: qsta_default_script.tcl version: #1
+Warning: Found USE_TIMEQUEST_TIMING_ANALYZER=OFF. The TimeQuest Timing Analyzer is not the default Timing Analysis Tool during full compilation.
+Warning: Timing Analysis does not support the analysis of latches as synchronous elements for the currently selected device family
+Critical Warning: Synopsys Design Constraints File file not found: 'Tsundere.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: Deriving Clocks
+    Info: create_clock -period 1.000 -name SCLK SCLK
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -8.800
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:    -8.800      -131.200 SCLK 
+Info: Worst-case hold slack is 5.600
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:     5.600         0.000 SCLK 
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: Worst-case minimum pulse width slack is -3.500
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:    -3.500      -112.000 SCLK 
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 193 megabytes
+    Info: Processing ended: Sat Nov 20 22:51:58 2010
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

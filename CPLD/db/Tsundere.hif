@@ -1,0 +1,9332 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+29
+1780
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lpm_bustri0
+# storage
+db|Tsundere.(1).cnf
+db|Tsundere.(1).cnf
+# case_insensitive
+# source_file
+lpm_bustri0.tdf
+2cfe4894abcf3c6def306fe9331e3a
+7
+# used_port {
+tridata7
+-1
+3
+tridata6
+-1
+3
+tridata5
+-1
+3
+tridata4
+-1
+3
+tridata3
+-1
+3
+tridata2
+-1
+3
+tridata1
+-1
+3
+tridata0
+-1
+3
+enabledt
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_bustri.inc
+e542f5adf6af653bd181242b9785544
+}
+# hierarchies {
+lpm_bustri0:inst9
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux0
+# storage
+db|Tsundere.(3).cnf
+db|Tsundere.(3).cnf
+# case_insensitive
+# source_file
+lpm_mux0.tdf
+93a02e97c62b9cef97e1dd161a8418c0
+7
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data7x7
+-1
+3
+data7x6
+-1
+3
+data7x5
+-1
+3
+data7x4
+-1
+3
+data7x3
+-1
+3
+data7x2
+-1
+3
+data7x1
+-1
+3
+data7x0
+-1
+3
+data6x7
+-1
+3
+data6x6
+-1
+3
+data6x5
+-1
+3
+data6x4
+-1
+3
+data6x3
+-1
+3
+data6x2
+-1
+3
+data6x1
+-1
+3
+data6x0
+-1
+3
+data5x7
+-1
+3
+data5x6
+-1
+3
+data5x5
+-1
+3
+data5x4
+-1
+3
+data5x3
+-1
+3
+data5x2
+-1
+3
+data5x1
+-1
+3
+data5x0
+-1
+3
+data4x7
+-1
+3
+data4x6
+-1
+3
+data4x5
+-1
+3
+data4x4
+-1
+3
+data4x3
+-1
+3
+data4x2
+-1
+3
+data4x1
+-1
+3
+data4x0
+-1
+3
+data3x7
+-1
+3
+data3x6
+-1
+3
+data3x5
+-1
+3
+data3x4
+-1
+3
+data3x3
+-1
+3
+data3x2
+-1
+3
+data3x1
+-1
+3
+data3x0
+-1
+3
+data2x7
+-1
+3
+data2x6
+-1
+3
+data2x5
+-1
+3
+data2x4
+-1
+3
+data2x3
+-1
+3
+data2x2
+-1
+3
+data2x1
+-1
+3
+data2x0
+-1
+3
+data1x7
+-1
+3
+data1x6
+-1
+3
+data1x5
+-1
+3
+data1x4
+-1
+3
+data1x3
+-1
+3
+data1x2
+-1
+3
+data1x1
+-1
+3
+data1x0
+-1
+3
+data0x7
+-1
+3
+data0x6
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# macro_sequence
+
+# end
+# entity
+A0rom
+# storage
+db|Tsundere.(10).cnf
+db|Tsundere.(10).cnf
+# case_insensitive
+# source_file
+a0rom.tdf
+306d91f7453f1441b87b94f8552b75a
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+A0rom:inst1
+}
+# macro_sequence
+
+# end
+# entity
+8Crom
+# storage
+db|Tsundere.(13).cnf
+db|Tsundere.(13).cnf
+# case_insensitive
+# source_file
+8crom.tdf
+ff2fadf69dde8956619d713d65dee54
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+8Crom:inst2
+}
+# macro_sequence
+
+# end
+# entity
+40rom
+# storage
+db|Tsundere.(15).cnf
+db|Tsundere.(15).cnf
+# case_insensitive
+# source_file
+40rom.tdf
+5419d87a6a7af2c635f2bf12d01265
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+40rom:inst3
+}
+# macro_sequence
+
+# end
+# entity
+00rom
+# storage
+db|Tsundere.(17).cnf
+db|Tsundere.(17).cnf
+# case_insensitive
+# source_file
+00rom.tdf
+933758dbc9b752711306be3aa44037
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+00rom:inst4
+00rom:inst5
+}
+# macro_sequence
+
+# end
+# entity
+80rom
+# storage
+db|Tsundere.(19).cnf
+db|Tsundere.(19).cnf
+# case_insensitive
+# source_file
+80rom.tdf
+8b9224a198e65770f4fcb89dd5ac6daa
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+}
+# hierarchies {
+80rom:inst6
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux0
+# storage
+db|Tsundere.(21).cnf
+db|Tsundere.(21).cnf
+# case_insensitive
+# source_file
+lpm_mux0.tdf
+93a02e97c62b9cef97e1dd161a8418c0
+7
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data7x7
+-1
+3
+data7x6
+-1
+3
+data7x5
+-1
+3
+data7x4
+-1
+3
+data7x3
+-1
+3
+data7x2
+-1
+3
+data7x1
+-1
+3
+data7x0
+-1
+3
+data6x7
+-1
+3
+data6x6
+-1
+3
+data6x5
+-1
+3
+data6x4
+-1
+3
+data6x3
+-1
+3
+data6x2
+-1
+3
+data6x1
+-1
+3
+data6x0
+-1
+3
+data5x7
+-1
+3
+data5x6
+-1
+3
+data5x5
+-1
+3
+data5x4
+-1
+3
+data5x3
+-1
+3
+data5x2
+-1
+3
+data5x1
+-1
+3
+data5x0
+-1
+3
+data4x7
+-1
+3
+data4x6
+-1
+3
+data4x5
+-1
+3
+data4x4
+-1
+3
+data4x3
+-1
+3
+data4x2
+-1
+3
+data4x1
+-1
+3
+data4x0
+-1
+3
+data3x3
+-1
+3
+data3x2
+-1
+3
+data3x1
+-1
+3
+data3x0
+-1
+3
+data2x7
+-1
+3
+data2x6
+-1
+3
+data2x5
+-1
+3
+data2x4
+-1
+3
+data2x3
+-1
+3
+data2x2
+-1
+3
+data2x1
+-1
+3
+data2x0
+-1
+3
+data1x7
+-1
+3
+data1x6
+-1
+3
+data1x5
+-1
+3
+data1x4
+-1
+3
+data1x3
+-1
+3
+data1x2
+-1
+3
+data1x1
+-1
+3
+data1x0
+-1
+3
+data0x7
+-1
+3
+data0x6
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+data3x7
+-1
+1
+data3x6
+-1
+1
+data3x5
+-1
+1
+data3x4
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux0
+# storage
+db|Tsundere.(37).cnf
+db|Tsundere.(37).cnf
+# case_insensitive
+# source_file
+lpm_mux0.tdf
+93a02e97c62b9cef97e1dd161a8418c0
+7
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data7x7
+-1
+3
+data7x6
+-1
+3
+data7x5
+-1
+3
+data7x4
+-1
+3
+data7x3
+-1
+3
+data7x2
+-1
+3
+data7x1
+-1
+3
+data7x0
+-1
+3
+data6x7
+-1
+3
+data6x6
+-1
+3
+data6x5
+-1
+3
+data6x4
+-1
+3
+data6x3
+-1
+3
+data6x2
+-1
+3
+data6x1
+-1
+3
+data6x0
+-1
+3
+data5x7
+-1
+3
+data5x6
+-1
+3
+data5x5
+-1
+3
+data5x4
+-1
+3
+data5x3
+-1
+3
+data5x2
+-1
+3
+data5x1
+-1
+3
+data5x0
+-1
+3
+data4x7
+-1
+3
+data4x6
+-1
+3
+data4x5
+-1
+3
+data4x4
+-1
+3
+data4x3
+-1
+3
+data4x2
+-1
+3
+data4x1
+-1
+3
+data4x0
+-1
+3
+data3x4
+-1
+3
+data3x3
+-1
+3
+data3x2
+-1
+3
+data3x1
+-1
+3
+data3x0
+-1
+3
+data2x7
+-1
+3
+data2x6
+-1
+3
+data2x5
+-1
+3
+data2x4
+-1
+3
+data2x3
+-1
+3
+data2x2
+-1
+3
+data2x1
+-1
+3
+data2x0
+-1
+3
+data1x7
+-1
+3
+data1x6
+-1
+3
+data1x5
+-1
+3
+data1x4
+-1
+3
+data1x3
+-1
+3
+data1x2
+-1
+3
+data1x1
+-1
+3
+data1x0
+-1
+3
+data0x7
+-1
+3
+data0x6
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+data3x7
+-1
+1
+data3x6
+-1
+1
+data3x5
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# hierarchies {
+lpm_mux0:inst
+}
+# macro_sequence
+
+# end
+# entity
+lpm_fifo0
+# storage
+db|Tsundere.(38).cnf
+db|Tsundere.(38).cnf
+# case_insensitive
+# source_file
+lpm_fifo0.tdf
+b384c13ee91234a97d881f911e41d5
+7
+# user_parameter {
+LPM_NUMWORDS
+2
+PARAMETER_UNKNOWN
+DEF
+LPM_WIDTHU
+1
+PARAMETER_UNKNOWN
+DEF
+}
+# include_file {
+dcfifo.inc
+73a27a4aac685421dc6eecfd6f2cefe
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_pbg1
+# storage
+db|Tsundere.(40).cnf
+db|Tsundere.(40).cnf
+# case_insensitive
+# source_file
+db|dcfifo_pbg1.tdf
+90bf916b3221dea595ff406a7c474383
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q15
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_tec
+# storage
+db|Tsundere.(41).cnf
+db|Tsundere.(41).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_tec.tdf
+b9b2abbabd1952182589b5ed95fcdf68
+7
+# used_port {
+usedw_in7
+-1
+3
+usedw_in6
+-1
+3
+usedw_in5
+-1
+3
+usedw_in4
+-1
+3
+usedw_in3
+-1
+3
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+rreq
+-1
+3
+empty
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_6bc
+# storage
+db|Tsundere.(42).cnf
+db|Tsundere.(42).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_6bc.tdf
+27c2bd7839c4a81184d1f1308aa599cf
+7
+# used_port {
+wreq
+-1
+3
+usedw_in7
+-1
+3
+usedw_in6
+-1
+3
+usedw_in5
+-1
+3
+usedw_in4
+-1
+3
+usedw_in3
+-1
+3
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+full
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_gray2bin_m0b
+# storage
+db|Tsundere.(43).cnf
+db|Tsundere.(43).cnf
+# case_insensitive
+# source_file
+db|a_gray2bin_m0b.tdf
+4e18b077b02dc2d6604d669f263d41e1
+7
+# used_port {
+gray7
+-1
+3
+gray6
+-1
+3
+gray5
+-1
+3
+gray4
+-1
+3
+gray3
+-1
+3
+gray2
+-1
+3
+gray1
+-1
+3
+gray0
+-1
+3
+bin7
+-1
+3
+bin6
+-1
+3
+bin5
+-1
+3
+bin4
+-1
+3
+bin3
+-1
+3
+bin2
+-1
+3
+bin1
+-1
+3
+bin0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_ll6
+# storage
+db|Tsundere.(44).cnf
+db|Tsundere.(44).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_ll6.tdf
+bab8fb0b6d7d0f6d07fd3f55363fb5
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_qs5
+# storage
+db|Tsundere.(45).cnf
+db|Tsundere.(45).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_qs5.tdf
+dc701317b82ee48fc1d09d8e712ed6cc
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+decode_oif
+# storage
+db|Tsundere.(59).cnf
+db|Tsundere.(59).cnf
+# case_insensitive
+# source_file
+db|decode_oif.tdf
+366747564aa828578ceeb6fe7b57ca
+7
+# used_port {
+eq99
+-1
+3
+eq98
+-1
+3
+eq97
+-1
+3
+eq96
+-1
+3
+eq95
+-1
+3
+eq94
+-1
+3
+eq93
+-1
+3
+eq92
+-1
+3
+eq91
+-1
+3
+eq90
+-1
+3
+eq9
+-1
+3
+eq89
+-1
+3
+eq88
+-1
+3
+eq87
+-1
+3
+eq86
+-1
+3
+eq85
+-1
+3
+eq84
+-1
+3
+eq83
+-1
+3
+eq82
+-1
+3
+eq81
+-1
+3
+eq80
+-1
+3
+eq8
+-1
+3
+eq79
+-1
+3
+eq78
+-1
+3
+eq77
+-1
+3
+eq76
+-1
+3
+eq75
+-1
+3
+eq74
+-1
+3
+eq73
+-1
+3
+eq72
+-1
+3
+eq71
+-1
+3
+eq70
+-1
+3
+eq7
+-1
+3
+eq69
+-1
+3
+eq68
+-1
+3
+eq67
+-1
+3
+eq66
+-1
+3
+eq65
+-1
+3
+eq64
+-1
+3
+eq63
+-1
+3
+eq62
+-1
+3
+eq61
+-1
+3
+eq60
+-1
+3
+eq6
+-1
+3
+eq59
+-1
+3
+eq58
+-1
+3
+eq57
+-1
+3
+eq56
+-1
+3
+eq55
+-1
+3
+eq54
+-1
+3
+eq53
+-1
+3
+eq52
+-1
+3
+eq51
+-1
+3
+eq50
+-1
+3
+eq5
+-1
+3
+eq49
+-1
+3
+eq48
+-1
+3
+eq47
+-1
+3
+eq46
+-1
+3
+eq45
+-1
+3
+eq44
+-1
+3
+eq43
+-1
+3
+eq42
+-1
+3
+eq41
+-1
+3
+eq40
+-1
+3
+eq4
+-1
+3
+eq39
+-1
+3
+eq38
+-1
+3
+eq37
+-1
+3
+eq36
+-1
+3
+eq35
+-1
+3
+eq34
+-1
+3
+eq33
+-1
+3
+eq32
+-1
+3
+eq31
+-1
+3
+eq30
+-1
+3
+eq3
+-1
+3
+eq29
+-1
+3
+eq28
+-1
+3
+eq27
+-1
+3
+eq26
+-1
+3
+eq255
+-1
+3
+eq254
+-1
+3
+eq253
+-1
+3
+eq252
+-1
+3
+eq251
+-1
+3
+eq250
+-1
+3
+eq25
+-1
+3
+eq249
+-1
+3
+eq248
+-1
+3
+eq247
+-1
+3
+eq246
+-1
+3
+eq245
+-1
+3
+eq244
+-1
+3
+eq243
+-1
+3
+eq242
+-1
+3
+eq241
+-1
+3
+eq240
+-1
+3
+eq24
+-1
+3
+eq239
+-1
+3
+eq238
+-1
+3
+eq237
+-1
+3
+eq236
+-1
+3
+eq235
+-1
+3
+eq234
+-1
+3
+eq233
+-1
+3
+eq232
+-1
+3
+eq231
+-1
+3
+eq230
+-1
+3
+eq23
+-1
+3
+eq229
+-1
+3
+eq228
+-1
+3
+eq227
+-1
+3
+eq226
+-1
+3
+eq225
+-1
+3
+eq224
+-1
+3
+eq223
+-1
+3
+eq222
+-1
+3
+eq221
+-1
+3
+eq220
+-1
+3
+eq22
+-1
+3
+eq219
+-1
+3
+eq218
+-1
+3
+eq217
+-1
+3
+eq216
+-1
+3
+eq215
+-1
+3
+eq214
+-1
+3
+eq213
+-1
+3
+eq212
+-1
+3
+eq211
+-1
+3
+eq210
+-1
+3
+eq21
+-1
+3
+eq209
+-1
+3
+eq208
+-1
+3
+eq207
+-1
+3
+eq206
+-1
+3
+eq205
+-1
+3
+eq204
+-1
+3
+eq203
+-1
+3
+eq202
+-1
+3
+eq201
+-1
+3
+eq200
+-1
+3
+eq20
+-1
+3
+eq2
+-1
+3
+eq199
+-1
+3
+eq198
+-1
+3
+eq197
+-1
+3
+eq196
+-1
+3
+eq195
+-1
+3
+eq194
+-1
+3
+eq193
+-1
+3
+eq192
+-1
+3
+eq191
+-1
+3
+eq190
+-1
+3
+eq19
+-1
+3
+eq189
+-1
+3
+eq188
+-1
+3
+eq187
+-1
+3
+eq186
+-1
+3
+eq185
+-1
+3
+eq184
+-1
+3
+eq183
+-1
+3
+eq182
+-1
+3
+eq181
+-1
+3
+eq180
+-1
+3
+eq18
+-1
+3
+eq179
+-1
+3
+eq178
+-1
+3
+eq177
+-1
+3
+eq176
+-1
+3
+eq175
+-1
+3
+eq174
+-1
+3
+eq173
+-1
+3
+eq172
+-1
+3
+eq171
+-1
+3
+eq170
+-1
+3
+eq17
+-1
+3
+eq169
+-1
+3
+eq168
+-1
+3
+eq167
+-1
+3
+eq166
+-1
+3
+eq165
+-1
+3
+eq164
+-1
+3
+eq163
+-1
+3
+eq162
+-1
+3
+eq161
+-1
+3
+eq160
+-1
+3
+eq16
+-1
+3
+eq159
+-1
+3
+eq158
+-1
+3
+eq157
+-1
+3
+eq156
+-1
+3
+eq155
+-1
+3
+eq154
+-1
+3
+eq153
+-1
+3
+eq152
+-1
+3
+eq151
+-1
+3
+eq150
+-1
+3
+eq15
+-1
+3
+eq149
+-1
+3
+eq148
+-1
+3
+eq147
+-1
+3
+eq146
+-1
+3
+eq145
+-1
+3
+eq144
+-1
+3
+eq143
+-1
+3
+eq142
+-1
+3
+eq141
+-1
+3
+eq140
+-1
+3
+eq14
+-1
+3
+eq139
+-1
+3
+eq138
+-1
+3
+eq137
+-1
+3
+eq136
+-1
+3
+eq135
+-1
+3
+eq134
+-1
+3
+eq133
+-1
+3
+eq132
+-1
+3
+eq131
+-1
+3
+eq130
+-1
+3
+eq13
+-1
+3
+eq129
+-1
+3
+eq128
+-1
+3
+eq127
+-1
+3
+eq126
+-1
+3
+eq125
+-1
+3
+eq124
+-1
+3
+eq123
+-1
+3
+eq122
+-1
+3
+eq121
+-1
+3
+eq120
+-1
+3
+eq12
+-1
+3
+eq119
+-1
+3
+eq118
+-1
+3
+eq117
+-1
+3
+eq116
+-1
+3
+eq115
+-1
+3
+eq114
+-1
+3
+eq113
+-1
+3
+eq112
+-1
+3
+eq111
+-1
+3
+eq110
+-1
+3
+eq11
+-1
+3
+eq109
+-1
+3
+eq108
+-1
+3
+eq107
+-1
+3
+eq106
+-1
+3
+eq105
+-1
+3
+eq104
+-1
+3
+eq103
+-1
+3
+eq102
+-1
+3
+eq101
+-1
+3
+eq100
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+enable
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_jlc
+# storage
+db|Tsundere.(60).cnf
+db|Tsundere.(60).cnf
+# case_insensitive
+# source_file
+db|cmpr_jlc.tdf
+c964ea74fd08f5e07272c171ccf7c2
+7
+# used_port {
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa8
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab8
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_fd9
+# storage
+db|Tsundere.(61).cnf
+db|Tsundere.(61).cnf
+# case_insensitive
+# source_file
+db|dffpipe_fd9.tdf
+c925b9b67e3bf8ccbda8715b61eafd
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d7
+-1
+3
+d6
+-1
+3
+d5
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_nc8
+# storage
+db|Tsundere.(62).cnf
+db|Tsundere.(62).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_nc8.tdf
+d859f8d17b2993a8c7b45b796250aeb0
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d7
+-1
+3
+d6
+-1
+3
+d5
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_hd9
+# storage
+db|Tsundere.(63).cnf
+db|Tsundere.(63).cnf
+# case_insensitive
+# source_file
+db|dffpipe_hd9.tdf
+b7c839b5ffe8b33d4ad97e4795c14427
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d7
+-1
+3
+d6
+-1
+3
+d5
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_cqb
+# storage
+db|Tsundere.(64).cnf
+db|Tsundere.(64).cnf
+# case_insensitive
+# source_file
+db|add_sub_cqb.tdf
+deaa72184fb9ef7983c3e36d06fb9fd
+7
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab7
+-1
+3
+datab6
+-1
+3
+datab5
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa7
+-1
+3
+dataa6
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_latch0
+# storage
+db|Tsundere.(66).cnf
+db|Tsundere.(66).cnf
+# case_insensitive
+# source_file
+lpm_latch0.tdf
+e93aab4fb0cb5584b9f564455f69913f
+7
+# used_port {
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+gate
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_latch.inc
+1b3813a2161d7e539f4ae91b2095bab3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux0
+# storage
+db|Tsundere.(68).cnf
+db|Tsundere.(68).cnf
+# case_insensitive
+# source_file
+lpm_mux0.tdf
+93a02e97c62b9cef97e1dd161a8418c0
+7
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+data7x7
+-1
+3
+data7x6
+-1
+3
+data7x5
+-1
+3
+data7x4
+-1
+3
+data7x3
+-1
+3
+data7x2
+-1
+3
+data7x1
+-1
+3
+data7x0
+-1
+3
+data6x7
+-1
+3
+data6x6
+-1
+3
+data6x5
+-1
+3
+data6x4
+-1
+3
+data6x3
+-1
+3
+data6x2
+-1
+3
+data6x1
+-1
+3
+data6x0
+-1
+3
+data5x7
+-1
+3
+data5x6
+-1
+3
+data5x5
+-1
+3
+data5x4
+-1
+3
+data5x3
+-1
+3
+data5x2
+-1
+3
+data5x1
+-1
+3
+data5x0
+-1
+3
+data4x7
+-1
+3
+data4x6
+-1
+3
+data4x5
+-1
+3
+data4x4
+-1
+3
+data4x3
+-1
+3
+data4x2
+-1
+3
+data4x1
+-1
+3
+data4x0
+-1
+3
+data3x4
+-1
+3
+data3x3
+-1
+3
+data3x2
+-1
+3
+data3x1
+-1
+3
+data3x0
+-1
+3
+data2x7
+-1
+3
+data2x6
+-1
+3
+data2x5
+-1
+3
+data2x4
+-1
+3
+data2x3
+-1
+3
+data2x2
+-1
+3
+data2x1
+-1
+3
+data2x0
+-1
+3
+data1x7
+-1
+3
+data1x6
+-1
+3
+data1x5
+-1
+3
+data1x4
+-1
+3
+data1x3
+-1
+3
+data1x2
+-1
+3
+data1x1
+-1
+3
+data1x0
+-1
+3
+data0x7
+-1
+3
+data0x6
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+data3x7
+-1
+1
+data3x6
+-1
+1
+data3x5
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# macro_sequence
+
+# end
+# entity
+Tsundere
+# storage
+db|Tsundere.(0).cnf
+db|Tsundere.(0).cnf
+# case_insensitive
+# source_file
+tsundere.bdf
+9e572d2eb4ca5f97dcc0493bc089eb37
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+lpm_shiftreg0
+# storage
+db|Tsundere.(35).cnf
+db|Tsundere.(35).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg0.tdf
+36a3ddb7844a18bd9c20fa7bfcfd5
+7
+# used_port {
+shiftin
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q15
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+lpm_shiftreg.inc
+d1a56edf92966422e978158b53adef48
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_rpg1
+# storage
+db|Tsundere.(72).cnf
+db|Tsundere.(72).cnf
+# case_insensitive
+# source_file
+db|dcfifo_rpg1.tdf
+ef10e4cf2a974bb1b24ccb21effe97
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q15
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_oc8
+# storage
+db|Tsundere.(74).cnf
+db|Tsundere.(74).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_oc8.tdf
+a64b3076d35dfa45a19ef426bfd292d2
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d7
+-1
+3
+d6
+-1
+3
+d5
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_id9
+# storage
+db|Tsundere.(75).cnf
+db|Tsundere.(75).cnf
+# case_insensitive
+# source_file
+db|dffpipe_id9.tdf
+c3f529683a155782e69d74a44cbcb721
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d7
+-1
+3
+d6
+-1
+3
+d5
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_cmg1
+# storage
+db|Tsundere.(77).cnf
+db|Tsundere.(77).cnf
+# case_insensitive
+# source_file
+db|dcfifo_cmg1.tdf
+4a2a55a988e1af963b887894a7f19d6
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q15
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_jbc
+# storage
+db|Tsundere.(78).cnf
+db|Tsundere.(78).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_jbc.tdf
+7333ba42c02619d733b437dbb199bef4
+7
+# used_port {
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+rreq
+-1
+3
+empty
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_s7c
+# storage
+db|Tsundere.(79).cnf
+db|Tsundere.(79).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_s7c.tdf
+951dd5b92cc4a3365f29966bfa5419bc
+7
+# used_port {
+wreq
+-1
+3
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+full
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_gray2bin_h0b
+# storage
+db|Tsundere.(80).cnf
+db|Tsundere.(80).cnf
+# case_insensitive
+# source_file
+db|a_gray2bin_h0b.tdf
+8c6beee8a8bc5091e73ec2781f75dea
+7
+# used_port {
+gray2
+-1
+3
+gray1
+-1
+3
+gray0
+-1
+3
+bin2
+-1
+3
+bin1
+-1
+3
+bin0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_gl6
+# storage
+db|Tsundere.(81).cnf
+db|Tsundere.(81).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_gl6.tdf
+e6dfb03bb760fe63b82188a947116070
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_ls5
+# storage
+db|Tsundere.(82).cnf
+db|Tsundere.(82).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_ls5.tdf
+59727345d4e1b2483f809fe5745ed3b
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+decode_eff
+# storage
+db|Tsundere.(86).cnf
+db|Tsundere.(86).cnf
+# case_insensitive
+# source_file
+db|decode_eff.tdf
+882cbb037ac3e7d491bb819e81e9d
+7
+# used_port {
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+enable
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_elc
+# storage
+db|Tsundere.(87).cnf
+db|Tsundere.(87).cnf
+# case_insensitive
+# source_file
+db|cmpr_elc.tdf
+ab7d1fe59770dd533b836c43e0e5979a
+7
+# used_port {
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab3
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_ad9
+# storage
+db|Tsundere.(88).cnf
+db|Tsundere.(88).cnf
+# case_insensitive
+# source_file
+db|dffpipe_ad9.tdf
+f7bdec390878e11fdd9d3cfbe8f32
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_ic8
+# storage
+db|Tsundere.(89).cnf
+db|Tsundere.(89).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_ic8.tdf
+18cada369f35f4a7c7b22165cd778d4b
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_cd9
+# storage
+db|Tsundere.(90).cnf
+db|Tsundere.(90).cnf
+# case_insensitive
+# source_file
+db|dffpipe_cd9.tdf
+f471c8912b73645b377ad1f1e94f242
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_7qb
+# storage
+db|Tsundere.(91).cnf
+db|Tsundere.(91).cnf
+# case_insensitive
+# source_file
+db|add_sub_7qb.tdf
+ad86ac165b5d992314eb6888946e2b4
+7
+# used_port {
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_6mg1
+# storage
+db|Tsundere.(94).cnf
+db|Tsundere.(94).cnf
+# case_insensitive
+# source_file
+db|dcfifo_6mg1.tdf
+69933f231ba529688010164645a864d2
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q15
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data15
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_ebc
+# storage
+db|Tsundere.(95).cnf
+db|Tsundere.(95).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_ebc.tdf
+a03beb3f8c61e83aeb96a3dec49617
+7
+# used_port {
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+rreq
+-1
+3
+empty
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_n7c
+# storage
+db|Tsundere.(96).cnf
+db|Tsundere.(96).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_n7c.tdf
+54f53ef2ea349a2a9be53443e2a1bd
+7
+# used_port {
+wreq
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+full
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_gray2bin_g0b
+# storage
+db|Tsundere.(97).cnf
+db|Tsundere.(97).cnf
+# case_insensitive
+# source_file
+db|a_gray2bin_g0b.tdf
+5d11d0ee5b4e4f18fa5bb6103652c6d1
+7
+# used_port {
+gray1
+-1
+3
+gray0
+-1
+3
+bin1
+-1
+3
+bin0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_fl6
+# storage
+db|Tsundere.(98).cnf
+db|Tsundere.(98).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_fl6.tdf
+a2def5d374eb5983c6e18b4cb3d472b4
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_ks5
+# storage
+db|Tsundere.(99).cnf
+db|Tsundere.(99).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_ks5.tdf
+cded4c9da34fa9bebd8ec4c52f9f4cd
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+decode_9ff
+# storage
+db|Tsundere.(104).cnf
+db|Tsundere.(104).cnf
+# case_insensitive
+# source_file
+db|decode_9ff.tdf
+ac1397401d808f99ed8e27fd750168b
+7
+# used_port {
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+enable
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_dlc
+# storage
+db|Tsundere.(105).cnf
+db|Tsundere.(105).cnf
+# case_insensitive
+# source_file
+db|cmpr_dlc.tdf
+9dc13f1bb2771c69f9fb63532eb8d
+7
+# used_port {
+datab1
+-1
+3
+datab0
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab2
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_9d9
+# storage
+db|Tsundere.(106).cnf
+db|Tsundere.(106).cnf
+# case_insensitive
+# source_file
+db|dffpipe_9d9.tdf
+cde74282cc7b1b1b39f283631817f70
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_hc8
+# storage
+db|Tsundere.(107).cnf
+db|Tsundere.(107).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_hc8.tdf
+d5b5ae18fba3317a43660b08a9fd53
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_bd9
+# storage
+db|Tsundere.(108).cnf
+db|Tsundere.(108).cnf
+# case_insensitive
+# source_file
+db|dffpipe_bd9.tdf
+c765186431c62b45ec23fa79816528
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_6qb
+# storage
+db|Tsundere.(109).cnf
+db|Tsundere.(109).cnf
+# case_insensitive
+# source_file
+db|add_sub_6qb.tdf
+2cf74732da88bc78a6557c55d9a1b2
+7
+# used_port {
+result1
+-1
+3
+result0
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_latch1
+# storage
+db|Tsundere.(112).cnf
+db|Tsundere.(112).cnf
+# case_insensitive
+# source_file
+lpm_latch1.tdf
+885ca6fd69866ffb226ac2dd1848ead
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+}
+# include_file {
+lpm_latch.inc
+1b3813a2161d7e539f4ae91b2095bab3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_0mg1
+# storage
+db|Tsundere.(116).cnf
+db|Tsundere.(116).cnf
+# case_insensitive
+# source_file
+db|dcfifo_0mg1.tdf
+a289348125234ce1ff33adc264131
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_jc8
+# storage
+db|Tsundere.(120).cnf
+db|Tsundere.(120).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_jc8.tdf
+c973bb233514a1aee64688f3eef42444
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_dd9
+# storage
+db|Tsundere.(121).cnf
+db|Tsundere.(121).cnf
+# case_insensitive
+# source_file
+db|dffpipe_dd9.tdf
+48fd29b5217ef2b46d37795966aaba8
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_nng1
+# storage
+db|Tsundere.(122).cnf
+db|Tsundere.(122).cnf
+# case_insensitive
+# source_file
+db|dcfifo_nng1.tdf
+e9b0e756e828ef96f8170949fc3d876
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_2dc
+# storage
+db|Tsundere.(123).cnf
+db|Tsundere.(123).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_2dc.tdf
+facde7ed3bbe908bc294a5a3d3114e7
+7
+# used_port {
+usedw_in4
+-1
+3
+usedw_in3
+-1
+3
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+rreq
+-1
+3
+empty
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_b9c
+# storage
+db|Tsundere.(124).cnf
+db|Tsundere.(124).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_b9c.tdf
+0a5c0fe4cf81a5e1796a3dddee73e50
+7
+# used_port {
+wreq
+-1
+3
+usedw_in4
+-1
+3
+usedw_in3
+-1
+3
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+full
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_gray2bin_j0b
+# storage
+db|Tsundere.(125).cnf
+db|Tsundere.(125).cnf
+# case_insensitive
+# source_file
+db|a_gray2bin_j0b.tdf
+cd45f63e48292fdb7944576f24ee89c
+7
+# used_port {
+gray4
+-1
+3
+gray3
+-1
+3
+gray2
+-1
+3
+gray1
+-1
+3
+gray0
+-1
+3
+bin4
+-1
+3
+bin3
+-1
+3
+bin2
+-1
+3
+bin1
+-1
+3
+bin0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_il6
+# storage
+db|Tsundere.(126).cnf
+db|Tsundere.(126).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_il6.tdf
+89c2018dfc2a747e86ad9b9d9d0a929
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_ns5
+# storage
+db|Tsundere.(127).cnf
+db|Tsundere.(127).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_ns5.tdf
+70efbb59223f64236f04fe0f73af922
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+decode_tgf
+# storage
+db|Tsundere.(138).cnf
+db|Tsundere.(138).cnf
+# case_insensitive
+# source_file
+db|decode_tgf.tdf
+df559ff5abe287244f9cbce0c963172d
+7
+# used_port {
+eq9
+-1
+3
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq31
+-1
+3
+eq30
+-1
+3
+eq3
+-1
+3
+eq29
+-1
+3
+eq28
+-1
+3
+eq27
+-1
+3
+eq26
+-1
+3
+eq25
+-1
+3
+eq24
+-1
+3
+eq23
+-1
+3
+eq22
+-1
+3
+eq21
+-1
+3
+eq20
+-1
+3
+eq2
+-1
+3
+eq19
+-1
+3
+eq18
+-1
+3
+eq17
+-1
+3
+eq16
+-1
+3
+eq15
+-1
+3
+eq14
+-1
+3
+eq13
+-1
+3
+eq12
+-1
+3
+eq11
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+enable
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_glc
+# storage
+db|Tsundere.(139).cnf
+db|Tsundere.(139).cnf
+# case_insensitive
+# source_file
+db|cmpr_glc.tdf
+de147ef63a95edb0646419cb8c3a69f
+7
+# used_port {
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa5
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab5
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_ed9
+# storage
+db|Tsundere.(140).cnf
+db|Tsundere.(140).cnf
+# case_insensitive
+# source_file
+db|dffpipe_ed9.tdf
+7492fe4f8ce6fc4cd3a2d290af764281
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_kc8
+# storage
+db|Tsundere.(141).cnf
+db|Tsundere.(141).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_kc8.tdf
+3e7b3ca37c7d879efacd472f5db321
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_gd9
+# storage
+db|Tsundere.(142).cnf
+db|Tsundere.(142).cnf
+# case_insensitive
+# source_file
+db|dffpipe_gd9.tdf
+33ce25391a98ddb22ee5dd4f1959b5c
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_9qb
+# storage
+db|Tsundere.(143).cnf
+db|Tsundere.(143).cnf
+# case_insensitive
+# source_file
+db|add_sub_9qb.tdf
+a9a5dd4d55fcd781f477858442410
+7
+# used_port {
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab4
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_fifo1
+# storage
+db|Tsundere.(70).cnf
+db|Tsundere.(70).cnf
+# case_insensitive
+# source_file
+lpm_fifo1.tdf
+979b805d778f36c8822e9eea15df3e97
+7
+# user_parameter {
+LPM_NUMWORDS
+2
+PARAMETER_UNKNOWN
+DEF
+LPM_WIDTHU
+1
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# include_file {
+dcfifo.inc
+73a27a4aac685421dc6eecfd6f2cefe
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_ong1
+# storage
+db|Tsundere.(146).cnf
+db|Tsundere.(146).cnf
+# case_insensitive
+# source_file
+db|dcfifo_ong1.tdf
+725cec7a1ef6a3fac468d61b6ccee72
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_3dc
+# storage
+db|Tsundere.(147).cnf
+db|Tsundere.(147).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_3dc.tdf
+8e8fe26e9618a07eacd0f2de5569c95c
+7
+# used_port {
+usedw_in3
+-1
+3
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+rreq
+-1
+3
+empty
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_fefifo_c9c
+# storage
+db|Tsundere.(148).cnf
+db|Tsundere.(148).cnf
+# case_insensitive
+# source_file
+db|a_fefifo_c9c.tdf
+ed2c60edd0eda3a09b4a9a1661e5fdc
+7
+# used_port {
+wreq
+-1
+3
+usedw_in3
+-1
+3
+usedw_in2
+-1
+3
+usedw_in1
+-1
+3
+usedw_in0
+-1
+3
+full
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_gray2bin_i0b
+# storage
+db|Tsundere.(149).cnf
+db|Tsundere.(149).cnf
+# case_insensitive
+# source_file
+db|a_gray2bin_i0b.tdf
+4b9d7e5499669fef3ef5cb71b4bea16
+7
+# used_port {
+gray3
+-1
+3
+gray2
+-1
+3
+gray1
+-1
+3
+gray0
+-1
+3
+bin3
+-1
+3
+bin2
+-1
+3
+bin1
+-1
+3
+bin0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_hl6
+# storage
+db|Tsundere.(150).cnf
+db|Tsundere.(150).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_hl6.tdf
+f78ff44cd1de9322ad62e9ba4f150
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+a_graycounter_ms5
+# storage
+db|Tsundere.(151).cnf
+db|Tsundere.(151).cnf
+# case_insensitive
+# source_file
+db|a_graycounter_ms5.tdf
+8473e035e691354047f088ca208a192
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+cnt_en
+-1
+3
+clock
+-1
+3
+aclr
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+decode_ugf
+# storage
+db|Tsundere.(158).cnf
+db|Tsundere.(158).cnf
+# case_insensitive
+# source_file
+db|decode_ugf.tdf
+51fe29930e543bc6c523b062df77d
+7
+# used_port {
+eq9
+-1
+3
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq3
+-1
+3
+eq2
+-1
+3
+eq15
+-1
+3
+eq14
+-1
+3
+eq13
+-1
+3
+eq12
+-1
+3
+eq11
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+enable
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_flc
+# storage
+db|Tsundere.(159).cnf
+db|Tsundere.(159).cnf
+# case_insensitive
+# source_file
+db|cmpr_flc.tdf
+feed9b48435777462fcca95e24babf2
+7
+# used_port {
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa4
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab4
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_jd9
+# storage
+db|Tsundere.(160).cnf
+db|Tsundere.(160).cnf
+# case_insensitive
+# source_file
+db|dffpipe_jd9.tdf
+9e37072c8613a738ceea6b4d5d52d2c
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_lc8
+# storage
+db|Tsundere.(161).cnf
+db|Tsundere.(161).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_lc8.tdf
+7872795b23edf9668bb5d13242d7ba6
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_kd9
+# storage
+db|Tsundere.(162).cnf
+db|Tsundere.(162).cnf
+# case_insensitive
+# source_file
+db|dffpipe_kd9.tdf
+9a2f53ff64de6c5e69c92e5e8c6ff2c
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+add_sub_8qb
+# storage
+db|Tsundere.(163).cnf
+db|Tsundere.(163).cnf
+# case_insensitive
+# source_file
+db|add_sub_8qb.tdf
+b9ed4dff2b651fc746e6b27c62c1ea2
+7
+# used_port {
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+datab3
+-1
+3
+datab2
+-1
+3
+datab1
+-1
+3
+datab0
+-1
+3
+dataa3
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_latch2
+# storage
+db|Tsundere.(165).cnf
+db|Tsundere.(165).cnf
+# case_insensitive
+# source_file
+lpm_latch2.tdf
+d750623fd86cc727c2a8ded3effbe11d
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+gate
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_latch.inc
+1b3813a2161d7e539f4ae91b2095bab3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_latch3
+# storage
+db|Tsundere.(166).cnf
+db|Tsundere.(166).cnf
+# case_insensitive
+# source_file
+lpm_latch3.tdf
+1cd8b37e052a1c4e4779932f773ae86
+7
+# used_port {
+gate
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_latch.inc
+1b3813a2161d7e539f4ae91b2095bab3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_latch3
+# storage
+db|Tsundere.(168).cnf
+db|Tsundere.(168).cnf
+# case_insensitive
+# source_file
+lpm_latch3.tdf
+1cd8b37e052a1c4e4779932f773ae86
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+gate
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_latch.inc
+1b3813a2161d7e539f4ae91b2095bab3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_88g1
+# storage
+db|Tsundere.(171).cnf
+db|Tsundere.(171).cnf
+# case_insensitive
+# source_file
+db|dcfifo_88g1.tdf
+d54dc63e6865d69770e48c57be2fd3
+7
+# used_port {
+wrreq
+-1
+3
+wrfull
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdempty
+-1
+3
+rdclk
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q14
+-1
+3
+q13
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data14
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_mc8
+# storage
+db|Tsundere.(175).cnf
+db|Tsundere.(175).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_mc8.tdf
+88becad4eda586337c6bbeaa66fb7a
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_ld9
+# storage
+db|Tsundere.(176).cnf
+db|Tsundere.(176).cnf
+# case_insensitive
+# source_file
+db|dffpipe_ld9.tdf
+6cf88d24df41129d3a6e8e95a148834
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux0
+# storage
+db|Tsundere.(183).cnf
+db|Tsundere.(183).cnf
+# case_insensitive
+# source_file
+lpm_mux0.tdf
+93a02e97c62b9cef97e1dd161a8418c0
+7
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data7x7
+-1
+3
+data7x6
+-1
+3
+data7x5
+-1
+3
+data7x4
+-1
+3
+data7x3
+-1
+3
+data7x2
+-1
+3
+data7x1
+-1
+3
+data7x0
+-1
+3
+data6x7
+-1
+3
+data6x6
+-1
+3
+data6x5
+-1
+3
+data6x4
+-1
+3
+data6x3
+-1
+3
+data6x2
+-1
+3
+data6x1
+-1
+3
+data6x0
+-1
+3
+data5x7
+-1
+3
+data5x6
+-1
+3
+data5x5
+-1
+3
+data5x4
+-1
+3
+data5x3
+-1
+3
+data5x2
+-1
+3
+data5x1
+-1
+3
+data5x0
+-1
+3
+data4x7
+-1
+3
+data4x6
+-1
+3
+data4x5
+-1
+3
+data4x4
+-1
+3
+data4x3
+-1
+3
+data4x2
+-1
+3
+data4x1
+-1
+3
+data4x0
+-1
+3
+data3x4
+-1
+3
+data3x3
+-1
+3
+data3x2
+-1
+3
+data3x1
+-1
+3
+data3x0
+-1
+3
+data2x7
+-1
+3
+data2x6
+-1
+3
+data2x5
+-1
+3
+data2x4
+-1
+3
+data2x3
+-1
+3
+data2x2
+-1
+3
+data2x1
+-1
+3
+data2x0
+-1
+3
+data0x7
+-1
+3
+data0x6
+-1
+3
+data0x5
+-1
+3
+data0x4
+-1
+3
+data0x3
+-1
+3
+data0x2
+-1
+3
+data0x1
+-1
+3
+data0x0
+-1
+3
+data3x7
+-1
+1
+data3x6
+-1
+1
+data3x5
+-1
+1
+}
+# include_file {
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+}
+# macro_sequence
+
+# end
+# entity
+lpm_fifo_dc0
+# storage
+db|Tsundere.(188).cnf
+db|Tsundere.(188).cnf
+# case_insensitive
+# source_file
+lpm_fifo_dc0.tdf
+638a589317304c2ab4e2b1ddf01213f5
+7
+# used_port {
+wrreq
+-1
+3
+rdreq
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+scfifo.inc
+beb1ae87eed74c52701983bce7978ab
+}
+# macro_sequence
+
+# end
+# entity
+lpm_fifo_dc1
+# storage
+db|Tsundere.(209).cnf
+db|Tsundere.(209).cnf
+# case_insensitive
+# source_file
+lpm_fifo_dc1.tdf
+f93c9ea44495e8e2196488ffa533b9
+7
+# used_port {
+wrreq
+-1
+3
+rdreq
+-1
+3
+q9
+-1
+3
+q8
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q12
+-1
+3
+q11
+-1
+3
+q10
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+scfifo.inc
+beb1ae87eed74c52701983bce7978ab
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_sne1
+# storage
+db|Tsundere.(212).cnf
+db|Tsundere.(212).cnf
+# case_insensitive
+# source_file
+db|dcfifo_sne1.tdf
+b8c799cf8729aab67f0603ae993ce31
+7
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_pc8
+# storage
+db|Tsundere.(215).cnf
+db|Tsundere.(215).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_pc8.tdf
+6b33c113e81e95e2d16934a8f5c1962
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_md9
+# storage
+db|Tsundere.(216).cnf
+db|Tsundere.(216).cnf
+# case_insensitive
+# source_file
+db|dffpipe_md9.tdf
+5a9888755cf81c1e2a567061cbf4d7
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d4
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_tne1
+# storage
+db|Tsundere.(218).cnf
+db|Tsundere.(218).cnf
+# case_insensitive
+# source_file
+db|dcfifo_tne1.tdf
+9a5742c17d2afb4198bfe185af350c3
+7
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_qc8
+# storage
+db|Tsundere.(221).cnf
+db|Tsundere.(221).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_qc8.tdf
+4c2dcc46ca3a71cebbfe515cee8d2179
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_nd9
+# storage
+db|Tsundere.(222).cnf
+db|Tsundere.(222).cnf
+# case_insensitive
+# source_file
+db|dffpipe_nd9.tdf
+6b1b10bd31a9f4d83d4a73897b5bf17e
+7
+# used_port {
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d3
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_bme1
+# storage
+db|Tsundere.(224).cnf
+db|Tsundere.(224).cnf
+# case_insensitive
+# source_file
+db|dcfifo_bme1.tdf
+593188d6778e3d903392179e40baaf8
+7
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_rc8
+# storage
+db|Tsundere.(226).cnf
+db|Tsundere.(226).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_rc8.tdf
+e55834e140ee7d9511708c536bd1fb41
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_od9
+# storage
+db|Tsundere.(227).cnf
+db|Tsundere.(227).cnf
+# case_insensitive
+# source_file
+db|dffpipe_od9.tdf
+227d39637f2abaead7a3a4a2435d538
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_5me1
+# storage
+db|Tsundere.(243).cnf
+db|Tsundere.(243).cnf
+# case_insensitive
+# source_file
+db|dcfifo_5me1.tdf
+8549b379d8300d6c8b5e4711c89ffa0
+7
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_sc8
+# storage
+db|Tsundere.(246).cnf
+db|Tsundere.(246).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_sc8.tdf
+eb52219958302891a18f0f2893af798
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_pd9
+# storage
+db|Tsundere.(247).cnf
+db|Tsundere.(247).cnf
+# case_insensitive
+# source_file
+db|dffpipe_pd9.tdf
+87a6edde8527ea12e43c5e37a54f3a
+7
+# used_port {
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo1
+# storage
+db|Tsundere.(169).cnf
+db|Tsundere.(169).cnf
+# case_insensitive
+# source_file
+dcfifo1.tdf
+406eaebc1e2e48d2b0f0e14f2fb6ff27
+7
+# user_parameter {
+LPM_NUMWORDS
+2
+PARAMETER_UNKNOWN
+DEF
+LPM_WIDTHU
+1
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+dcfifo.inc
+73a27a4aac685421dc6eecfd6f2cefe
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_6me1
+# storage
+db|Tsundere.(248).cnf
+db|Tsundere.(248).cnf
+# case_insensitive
+# source_file
+db|dcfifo_6me1.tdf
+c87237bde46e6b05eb56e96243b5c80
+7
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_tc8
+# storage
+db|Tsundere.(251).cnf
+db|Tsundere.(251).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_tc8.tdf
+2295ced93bac5a08cb99c9c24ec73f2
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_qd9
+# storage
+db|Tsundere.(252).cnf
+db|Tsundere.(252).cnf
+# case_insensitive
+# source_file
+db|dffpipe_qd9.tdf
+5960a587b3f16887b82c6ba6e3544b
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo0
+# storage
+db|Tsundere.(253).cnf
+db|Tsundere.(253).cnf
+# case_insensitive
+# source_file
+dcfifo0.tdf
+9e636b79fe60e62fb011e9c1a21dfc2e
+7
+# user_parameter {
+LPM_NUMWORDS
+2
+PARAMETER_UNKNOWN
+DEF
+LPM_WIDTHU
+1
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+dcfifo.inc
+73a27a4aac685421dc6eecfd6f2cefe
+}
+# macro_sequence
+
+# end
+# entity
+dcfifo_vle1
+# storage
+db|Tsundere.(255).cnf
+db|Tsundere.(255).cnf
+# case_insensitive
+# source_file
+db|dcfifo_vle1.tdf
+95c00aad46cbadb3c6f8082cbd38aa
+7
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+alt_synch_pipe_uc8
+# storage
+db|Tsundere.(258).cnf
+db|Tsundere.(258).cnf
+# case_insensitive
+# source_file
+db|alt_synch_pipe_uc8.tdf
+18c4c6bce8c4c0769266e88c2e27890
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+dffpipe_rd9
+# storage
+db|Tsundere.(259).cnf
+db|Tsundere.(259).cnf
+# case_insensitive
+# source_file
+db|dffpipe_rd9.tdf
+3f98f04af87a59862adadf65e1e2b50
+7
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+clrn
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+lpm_fifo_dc2
+# storage
+db|Tsundere.(260).cnf
+db|Tsundere.(260).cnf
+# case_insensitive
+# source_file
+lpm_fifo_dc2.tdf
+a063c2fea074502a57f2e243fdede4b
+7
+# user_parameter {
+LPM_NUMWORDS
+2
+PARAMETER_UNKNOWN
+DEF
+LPM_WIDTHU
+1
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+wrreq
+-1
+3
+wrclk
+-1
+3
+rdreq
+-1
+3
+rdclk
+-1
+3
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+dcfifo.inc
+73a27a4aac685421dc6eecfd6f2cefe
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff0
+# storage
+db|Tsundere.(261).cnf
+db|Tsundere.(261).cnf
+# case_insensitive
+# source_file
+lpm_dff0.tdf
+ead26f18e1e121349d3b546c54246c88
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_ff.inc
+5b1f18ec4f969a147b22e8c42bf962ac
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff4
+# storage
+db|Tsundere.(263).cnf
+db|Tsundere.(263).cnf
+# case_insensitive
+# source_file
+lpm_dff4.tdf
+7d69f83d89d3b6e9a1c213ae54a56aa8
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# include_file {
+lpm_ff.inc
+5b1f18ec4f969a147b22e8c42bf962ac
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff0
+# storage
+db|Tsundere.(264).cnf
+db|Tsundere.(264).cnf
+# case_insensitive
+# source_file
+lpm_dff0.tdf
+ead26f18e1e121349d3b546c54246c88
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+lpm_ff.inc
+5b1f18ec4f969a147b22e8c42bf962ac
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff4
+# storage
+db|Tsundere.(265).cnf
+db|Tsundere.(265).cnf
+# case_insensitive
+# source_file
+lpm_dff4.tdf
+7d69f83d89d3b6e9a1c213ae54a56aa8
+7
+# used_port {
+q7
+-1
+3
+q6
+-1
+3
+q5
+-1
+3
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# include_file {
+lpm_ff.inc
+5b1f18ec4f969a147b22e8c42bf962ac
+}
+# macro_sequence
+
+# end
+# entity
+Tsundere2
+# storage
+db|Tsundere.(2).cnf
+db|Tsundere.(2).cnf
+# case_insensitive
+# source_file
+tsundere2.bdf
+1ef9bf284c849c55c59ca72749792f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+TsundereFinal
+# storage
+db|Tsundere.(23).cnf
+db|Tsundere.(23).cnf
+# case_insensitive
+# source_file
+tsunderefinal.bdf
+7ecda1eb6489b6f013c7c817a325762e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+lpm_bustri
+# storage
+db|Tsundere.(4).cnf
+db|Tsundere.(4).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|lpm_bustri.tdf
+8143c11353809b678e4994d13be28a
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+tridata7
+-1
+3
+tridata6
+-1
+3
+tridata5
+-1
+3
+tridata4
+-1
+3
+tridata3
+-1
+3
+tridata2
+-1
+3
+tridata1
+-1
+3
+tridata0
+-1
+3
+enabledt
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_bustri0:inst9|lpm_bustri:lpm_bustri_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|Tsundere.(5).cnf
+db|Tsundere.(5).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|lpm_mux.tdf
+9d45665215a7636e457c26f5f1517
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_SIZE
+8
+PARAMETER_UNKNOWN
+USR
+LPM_WIDTHS
+3
+PARAMETER_UNKNOWN
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_fbc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+MAX3000A
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel2
+-1
+3
+sel1
+-1
+3
+sel0
+-1
+3
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data7_7
+-1
+3
+data7_6
+-1
+3
+data7_5
+-1
+3
+data7_4
+-1
+3
+data7_3
+-1
+3
+data7_2
+-1
+3
+data7_1
+-1
+3
+data7_0
+-1
+3
+data6_7
+-1
+3
+data6_6
+-1
+3
+data6_5
+-1
+3
+data6_4
+-1
+3
+data6_3
+-1
+3
+data6_2
+-1
+3
+data6_1
+-1
+3
+data6_0
+-1
+3
+data5_7
+-1
+3
+data5_6
+-1
+3
+data5_5
+-1
+3
+data5_4
+-1
+3
+data5_3
+-1
+3
+data5_2
+-1
+3
+data5_1
+-1
+3
+data5_0
+-1
+3
+data4_7
+-1
+3
+data4_6
+-1
+3
+data4_5
+-1
+3
+data4_4
+-1
+3
+data4_3
+-1
+3
+data4_2
+-1
+3
+data4_1
+-1
+3
+data4_0
+-1
+3
+data3_7
+-1
+3
+data3_6
+-1
+3
+data3_5
+-1
+3
+data3_4
+-1
+3
+data3_3
+-1
+3
+data3_2
+-1
+3
+data3_1
+-1
+3
+data3_0
+-1
+3
+data2_7
+-1
+3
+data2_6
+-1
+3
+data2_5
+-1
+3
+data2_4
+-1
+3
+data2_3
+-1
+3
+data2_2
+-1
+3
+data2_1
+-1
+3
+data2_0
+-1
+3
+data1_7
+-1
+3
+data1_6
+-1
+3
+data1_5
+-1
+3
+data1_4
+-1
+3
+data1_3
+-1
+3
+data1_2
+-1
+3
+data1_1
+-1
+3
+data1_0
+-1
+3
+data0_7
+-1
+3
+data0_6
+-1
+3
+data0_5
+-1
+3
+data0_4
+-1
+3
+data0_3
+-1
+3
+data0_2
+-1
+3
+data0_1
+-1
+3
+data0_0
+-1
+3
+}
+# hierarchies {
+lpm_mux0:inst|lpm_mux:lpm_mux_component
+}
+# macro_sequence
+
+# end
+# entity
+bypassff
+# storage
+db|Tsundere.(6).cnf
+db|Tsundere.(6).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|bypassff.tdf
+1d2367f294f861d4f7412ab0af741374
+7
+# user_parameter {
+WIDTH
+3
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q2
+-1
+3
+d2
+-1
+3
+d1
+-1
+3
+d0
+-1
+3
+}
+# hierarchies {
+lpm_mux0:inst|lpm_mux:lpm_mux_component|bypassff:sel_latency_ff[0]
+}
+# macro_sequence
+
+# end
+# entity
+altshift
+# storage
+db|Tsundere.(7).cnf
+db|Tsundere.(7).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|altshift.tdf
+f9c48e01ed05093ffb6fc0cfdb46bd
+7
+# user_parameter {
+WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+DEPTH
+0
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_mux0:inst|lpm_mux:lpm_mux_component|altshift:external_latency_ffs
+}
+# macro_sequence
+
+# end
+# entity
+muxlut
+# storage
+db|Tsundere.(8).cnf
+db|Tsundere.(8).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|muxlut.tdf
+d5acef58a3908096e667465b433959
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+SIZE
+8
+PARAMETER_UNKNOWN
+USR
+LEVEL
+1
+PARAMETER_UNKNOWN
+USR
+TOT_LEVELS
+2
+PARAMETER_UNKNOWN
+USR
+LATENCY
+0
+PARAMETER_UNKNOWN
+USR
+REM_LATENCY
+0
+PARAMETER_UNKNOWN
+DEF
+LOCAL
+0
+PARAMETER_UNKNOWN
+DEF
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+MAX3000A
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+select2
+-1
+3
+select1
+-1
+3
+select0
+-1
+3
+result
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00018
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00020
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00022
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00024
+}
+# macro_sequence
+
+# end
+# entity
+muxlut
+# storage
+db|Tsundere.(9).cnf
+db|Tsundere.(9).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|muxlut.tdf
+d5acef58a3908096e667465b433959
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+SIZE
+4
+PARAMETER_UNKNOWN
+USR
+LEVEL
+0
+PARAMETER_UNKNOWN
+USR
+TOT_LEVELS
+2
+PARAMETER_UNKNOWN
+USR
+LATENCY
+0
+PARAMETER_UNKNOWN
+USR
+REM_LATENCY
+0
+PARAMETER_UNKNOWN
+DEF
+LOCAL
+0
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+MAX3000A
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+select1
+-1
+3
+select0
+-1
+3
+result
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00012|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00012|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00014|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00014|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00016|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00016|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00018|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00018|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00020|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00020|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00022|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00022|muxlut:$00014
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00024|muxlut:$00012
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00024|muxlut:$00014
+}
+# macro_sequence
+
+# end
+# entity
+muxlut
+# storage
+db|Tsundere.(11).cnf
+db|Tsundere.(11).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|muxlut.tdf
+d5acef58a3908096e667465b433959
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+SIZE
+2
+PARAMETER_UNKNOWN
+USR
+LEVEL
+1
+PARAMETER_UNKNOWN
+USR
+TOT_LEVELS
+2
+PARAMETER_UNKNOWN
+USR
+LATENCY
+0
+PARAMETER_UNKNOWN
+USR
+REM_LATENCY
+0
+PARAMETER_UNKNOWN
+DEF
+LOCAL
+1
+PARAMETER_UNKNOWN
+USR
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+MAX3000A
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+select0
+-1
+3
+result
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00012|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00014|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00016|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00018|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00020|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00022|muxlut:$00016
+lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00024|muxlut:$00016
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Tsundere.(12).cnf
+db|Tsundere.(12).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+160
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_bh6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+A0rom:inst1|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Tsundere.(14).cnf
+db|Tsundere.(14).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+140
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_lh6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+8Crom:inst2|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Tsundere.(16).cnf
+db|Tsundere.(16).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+64
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_uf6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+40rom:inst3|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Tsundere.(18).cnf
+db|Tsundere.(18).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+0
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_qf6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+00rom:inst4|lpm_constant:lpm_constant_component
+00rom:inst5|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Tsundere.(20).cnf
+db|Tsundere.(20).cnf
+# case_insensitive
+# source_file
+d:|altera|91sp2|quartus|libraries|megafunctions|lpm_constant.tdf
+20a173884457e9df4e4d620451461d
+7
+# user_parameter {
+LPM_WIDTH
+8
+PARAMETER_UNKNOWN
+USR
+LPM_CVALUE
+128
+PARAMETER_UNKNOWN
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_2g6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result7
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+80rom:inst6|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,428 @@
+Analysis & Synthesis report for Tsundere
+Mon Aug 27 13:43:10 2012
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Parameter Settings for User Entity Instance: lpm_bustri0:inst9|lpm_bustri:lpm_bustri_component
+  9. Parameter Settings for User Entity Instance: lpm_mux0:inst|lpm_mux:lpm_mux_component
+ 10. Parameter Settings for User Entity Instance: A0rom:inst1|lpm_constant:lpm_constant_component
+ 11. Parameter Settings for User Entity Instance: 8Crom:inst2|lpm_constant:lpm_constant_component
+ 12. Parameter Settings for User Entity Instance: 40rom:inst3|lpm_constant:lpm_constant_component
+ 13. Parameter Settings for User Entity Instance: 00rom:inst4|lpm_constant:lpm_constant_component
+ 14. Parameter Settings for User Entity Instance: 00rom:inst5|lpm_constant:lpm_constant_component
+ 15. Parameter Settings for User Entity Instance: 80rom:inst6|lpm_constant:lpm_constant_component
+ 16. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                               ;
++-----------------------------+----------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Mon Aug 27 13:43:10 2012        ;
+; Quartus II Version          ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name               ; Tsundere                                     ;
+; Top-level Entity Name       ; Tsundere2                                    ;
+; Family                      ; MAX3000A                                     ;
+; Total macrocells            ; 9                                            ;
+; Total pins                  ; 26                                           ;
++-----------------------------+----------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Option                                                                     ; Setting         ; Default Value ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Device                                                                     ; EPM3032ATC44-10 ;               ;
+; Top-level entity name                                                      ; Tsundere2       ; Tsundere      ;
+; Family name                                                                ; MAX3000A        ; Stratix II    ;
+; Use Generated Physical Constraints File                                    ; Off             ;               ;
+; Use smart compilation                                                      ; Off             ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On              ; On            ;
+; Enable compact report table                                                ; Off             ; Off           ;
+; Create Debugging Nodes for IP Cores                                        ; Off             ; Off           ;
+; Preserve fewer node names                                                  ; On              ; On            ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off             ; Off           ;
+; Verilog Version                                                            ; Verilog_2001    ; Verilog_2001  ;
+; VHDL Version                                                               ; VHDL_1993       ; VHDL_1993     ;
+; State Machine Processing                                                   ; Auto            ; Auto          ;
+; Safe State Machine                                                         ; Off             ; Off           ;
+; Extract Verilog State Machines                                             ; On              ; On            ;
+; Extract VHDL State Machines                                                ; On              ; On            ;
+; Ignore Verilog initial constructs                                          ; Off             ; Off           ;
+; Iteration limit for constant Verilog loops                                 ; 5000            ; 5000          ;
+; Iteration limit for non-constant Verilog loops                             ; 250             ; 250           ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On              ; On            ;
+; Parallel Synthesis                                                         ; On              ; On            ;
+; NOT Gate Push-Back                                                         ; On              ; On            ;
+; Power-Up Don't Care                                                        ; On              ; On            ;
+; Remove Duplicate Registers                                                 ; On              ; On            ;
+; Ignore CARRY Buffers                                                       ; Off             ; Off           ;
+; Ignore CASCADE Buffers                                                     ; Off             ; Off           ;
+; Ignore GLOBAL Buffers                                                      ; Off             ; Off           ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off             ; Off           ;
+; Ignore LCELL Buffers                                                       ; Auto            ; Auto          ;
+; Ignore SOFT Buffers                                                        ; Off             ; Off           ;
+; Limit AHDL Integers to 32 Bits                                             ; Off             ; Off           ;
+; Optimization Technique                                                     ; Speed           ; Speed         ;
+; Allow XOR Gate Usage                                                       ; On              ; On            ;
+; Auto Logic Cell Insertion                                                  ; On              ; On            ;
+; Parallel Expander Chain Length                                             ; 4               ; 4             ;
+; Auto Parallel Expanders                                                    ; On              ; On            ;
+; Auto Open-Drain Pins                                                       ; On              ; On            ;
+; Auto Resource Sharing                                                      ; Off             ; Off           ;
+; Maximum Fan-in Per Macrocell                                               ; 100             ; 100           ;
+; Use LogicLock Constraints during Resource Balancing                        ; On              ; On            ;
+; Ignore translate_off and synthesis_off directives                          ; Off             ; Off           ;
+; Show Parameter Settings Tables in Synthesis Report                         ; On              ; On            ;
+; HDL message level                                                          ; Level2          ; Level2        ;
+; Suppress Register Optimization Related Messages                            ; Off             ; Off           ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000            ; 5000          ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100             ; 100           ;
+; Block Design Naming                                                        ; Auto            ; Auto          ;
+; Synthesis Effort                                                           ; Auto            ; Auto          ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On              ; On            ;
+; Analysis & Synthesis Message Level                                         ; Medium          ; Medium        ;
+; Disable Register Merging Across Hierarchies                                ; Auto            ; Auto          ;
++----------------------------------------------------------------------------+-----------------+---------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                   ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------+
+; 00rom.tdf                        ; yes             ; User Wizard-Generated File         ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/00rom.tdf       ;
+; 40rom.tdf                        ; yes             ; User Wizard-Generated File         ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/40rom.tdf       ;
+; 80rom.tdf                        ; yes             ; User Wizard-Generated File         ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/80rom.tdf       ;
+; 8Crom.tdf                        ; yes             ; User Wizard-Generated File         ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/8Crom.tdf       ;
+; A0rom.tdf                        ; yes             ; User Wizard-Generated File         ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/A0rom.tdf       ;
+; lpm_bustri0.tdf                  ; yes             ; User Wizard-Generated File         ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/lpm_bustri0.tdf ;
+; lpm_mux0.tdf                     ; yes             ; User Wizard-Generated File         ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/lpm_mux0.tdf    ;
+; Tsundere2.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Action/Chip Maestro/Chip Maestro Source/Chip Maestro - CPLD/Tsundere2.bdf   ;
+; lpm_constant.inc                 ; yes             ; Auto-Found AHDL File               ; d:/altera/91sp2/quartus/libraries/megafunctions/lpm_constant.inc               ;
+; lpm_bustri.inc                   ; yes             ; Auto-Found AHDL File               ; d:/altera/91sp2/quartus/libraries/megafunctions/lpm_bustri.inc                 ;
+; lpm_mux.inc                      ; yes             ; Auto-Found AHDL File               ; d:/altera/91sp2/quartus/libraries/megafunctions/lpm_mux.inc                    ;
+; lpm_bustri.tdf                   ; yes             ; Megafunction                       ; d:/altera/91sp2/quartus/libraries/megafunctions/lpm_bustri.tdf                 ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                       ; d:/altera/91sp2/quartus/libraries/megafunctions/lpm_mux.tdf                    ;
+; bypassff.tdf                     ; yes             ; Megafunction                       ; d:/altera/91sp2/quartus/libraries/megafunctions/bypassff.tdf                   ;
+; altshift.tdf                     ; yes             ; Megafunction                       ; d:/altera/91sp2/quartus/libraries/megafunctions/altshift.tdf                   ;
+; muxlut.tdf                       ; yes             ; Megafunction                       ; d:/altera/91sp2/quartus/libraries/megafunctions/muxlut.tdf                     ;
+; lpm_constant.tdf                 ; yes             ; Megafunction                       ; d:/altera/91sp2/quartus/libraries/megafunctions/lpm_constant.tdf               ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++----------------------+----------------------+
+; Resource             ; Usage                ;
++----------------------+----------------------+
+; Logic cells          ; 9                    ;
+; Total registers      ; 0                    ;
+; I/O pins             ; 26                   ;
+; Maximum fan-out node ; A[2]                 ;
+; Maximum fan-out      ; 9                    ;
+; Total fan-out        ; 57                   ;
+; Average fan-out      ; 1.63                 ;
++----------------------+----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                   ;
++-----------------------------------+------------+------+--------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node        ; Macrocells ; Pins ; Full Hierarchy Name                                                            ; Library Name ;
++-----------------------------------+------------+------+--------------------------------------------------------------------------------+--------------+
+; |Tsundere2                        ; 9          ; 26   ; |Tsundere2                                                                     ; work         ;
+;    |lpm_mux0:inst|                ; 8          ; 0    ; |Tsundere2|lpm_mux0:inst                                                       ; work         ;
+;       |lpm_mux:lpm_mux_component| ; 8          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component                             ; work         ;
+;          |muxlut:$00010|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00016 ; work         ;
+;          |muxlut:$00012|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00012               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00012|muxlut:$00016 ; work         ;
+;          |muxlut:$00014|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00014               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00014|muxlut:$00016 ; work         ;
+;          |muxlut:$00016|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00016               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00016|muxlut:$00016 ; work         ;
+;          |muxlut:$00018|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00018               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00018|muxlut:$00016 ; work         ;
+;          |muxlut:$00020|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00020               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00020|muxlut:$00016 ; work         ;
+;          |muxlut:$00022|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00022               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00022|muxlut:$00016 ; work         ;
+;          |muxlut:$00024|          ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00024               ; work         ;
+;             |muxlut:$00016|       ; 1          ; 0    ; |Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00024|muxlut:$00016 ; work         ;
++-----------------------------------+------------+------+--------------------------------------------------------------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_bustri0:inst9|lpm_bustri:lpm_bustri_component ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; LPM_WIDTH      ; 8     ; Untyped                                                               ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lpm_mux0:inst|lpm_mux:lpm_mux_component ;
++------------------------+----------+--------------------------------------------------+
+; Parameter Name         ; Value    ; Type                                             ;
++------------------------+----------+--------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON       ; AUTO_CARRY                                       ;
+; IGNORE_CARRY_BUFFERS   ; OFF      ; IGNORE_CARRY                                     ;
+; AUTO_CASCADE_CHAINS    ; ON       ; AUTO_CASCADE                                     ;
+; IGNORE_CASCADE_BUFFERS ; OFF      ; IGNORE_CASCADE                                   ;
+; LPM_WIDTH              ; 8        ; Untyped                                          ;
+; LPM_SIZE               ; 8        ; Untyped                                          ;
+; LPM_WIDTHS             ; 3        ; Untyped                                          ;
+; LPM_PIPELINE           ; 0        ; Untyped                                          ;
+; CBXI_PARAMETER         ; mux_fbc  ; Untyped                                          ;
+; DEVICE_FAMILY          ; MAX3000A ; Untyped                                          ;
++------------------------+----------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: A0rom:inst1|lpm_constant:lpm_constant_component ;
++--------------------+------------------+------------------------------------------------------+
+; Parameter Name     ; Value            ; Type                                                 ;
++--------------------+------------------+------------------------------------------------------+
+; LPM_WIDTH          ; 8                ; Untyped                                              ;
+; LPM_CVALUE         ; 160              ; Untyped                                              ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                              ;
+; CBXI_PARAMETER     ; lpm_constant_bh6 ; Untyped                                              ;
++--------------------+------------------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: 8Crom:inst2|lpm_constant:lpm_constant_component ;
++--------------------+------------------+------------------------------------------------------+
+; Parameter Name     ; Value            ; Type                                                 ;
++--------------------+------------------+------------------------------------------------------+
+; LPM_WIDTH          ; 8                ; Untyped                                              ;
+; LPM_CVALUE         ; 140              ; Untyped                                              ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                              ;
+; CBXI_PARAMETER     ; lpm_constant_lh6 ; Untyped                                              ;
++--------------------+------------------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: 40rom:inst3|lpm_constant:lpm_constant_component ;
++--------------------+------------------+------------------------------------------------------+
+; Parameter Name     ; Value            ; Type                                                 ;
++--------------------+------------------+------------------------------------------------------+
+; LPM_WIDTH          ; 8                ; Untyped                                              ;
+; LPM_CVALUE         ; 64               ; Untyped                                              ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                              ;
+; CBXI_PARAMETER     ; lpm_constant_uf6 ; Untyped                                              ;
++--------------------+------------------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: 00rom:inst4|lpm_constant:lpm_constant_component ;
++--------------------+------------------+------------------------------------------------------+
+; Parameter Name     ; Value            ; Type                                                 ;
++--------------------+------------------+------------------------------------------------------+
+; LPM_WIDTH          ; 8                ; Untyped                                              ;
+; LPM_CVALUE         ; 0                ; Untyped                                              ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                              ;
+; CBXI_PARAMETER     ; lpm_constant_qf6 ; Untyped                                              ;
++--------------------+------------------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: 00rom:inst5|lpm_constant:lpm_constant_component ;
++--------------------+------------------+------------------------------------------------------+
+; Parameter Name     ; Value            ; Type                                                 ;
++--------------------+------------------+------------------------------------------------------+
+; LPM_WIDTH          ; 8                ; Untyped                                              ;
+; LPM_CVALUE         ; 0                ; Untyped                                              ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                              ;
+; CBXI_PARAMETER     ; lpm_constant_qf6 ; Untyped                                              ;
++--------------------+------------------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: 80rom:inst6|lpm_constant:lpm_constant_component ;
++--------------------+------------------+------------------------------------------------------+
+; Parameter Name     ; Value            ; Type                                                 ;
++--------------------+------------------+------------------------------------------------------+
+; LPM_WIDTH          ; 8                ; Untyped                                              ;
+; LPM_CVALUE         ; 128              ; Untyped                                              ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                              ;
+; CBXI_PARAMETER     ; lpm_constant_2g6 ; Untyped                                              ;
++--------------------+------------------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Mon Aug 27 13:43:02 2012
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Tsundere -c Tsundere
+Warning: Tcl Script File //storage01/jlupinsk/public_html/lpm_constant0.qip not found
+    Info: set_global_assignment -name QIP_FILE //storage01/jlupinsk/public_html/lpm_constant0.qip
+Info: Found 1 design units, including 1 entities, in source file tsunderefifo.bdf
+    Info: Found entity 1: TsundereFIFO
+Info: Found 1 design units, including 1 entities, in source file tsundere.bdf
+    Info: Found entity 1: Tsundere
+Info: Found 1 design units, including 1 entities, in source file 00rom.tdf
+    Info: Found entity 1: 00rom
+Info: Found 1 design units, including 1 entities, in source file 40rom.tdf
+    Info: Found entity 1: 40rom
+Info: Found 1 design units, including 1 entities, in source file 80rom.tdf
+    Info: Found entity 1: 80rom
+Info: Found 1 design units, including 1 entities, in source file 8crom.tdf
+    Info: Found entity 1: 8Crom
+Info: Found 1 design units, including 1 entities, in source file a0rom.tdf
+    Info: Found entity 1: A0rom
+Info: Found 1 design units, including 1 entities, in source file lpm_bustri0.tdf
+    Info: Found entity 1: lpm_bustri0
+Info: Found 1 design units, including 1 entities, in source file lpm_constant0.tdf
+    Info: Found entity 1: lpm_constant0
+Info: Found 1 design units, including 1 entities, in source file lpm_constant1.tdf
+    Info: Found entity 1: lpm_constant1
+Info: Found 1 design units, including 1 entities, in source file lpm_constant2.tdf
+    Info: Found entity 1: lpm_constant2
+Info: Found 1 design units, including 1 entities, in source file lpm_constant3.tdf
+    Info: Found entity 1: lpm_constant3
+Info: Found 1 design units, including 1 entities, in source file lpm_dff0.tdf
+    Info: Found entity 1: lpm_dff0
+Info: Found 1 design units, including 1 entities, in source file lpm_dff1.tdf
+    Info: Found entity 1: lpm_dff1
+Info: Found 1 design units, including 1 entities, in source file lpm_mux0.tdf
+    Info: Found entity 1: lpm_mux0
+Info: Found 1 design units, including 1 entities, in source file lpm_shiftreg0.tdf
+    Info: Found entity 1: lpm_shiftreg0
+Info: Found 1 design units, including 1 entities, in source file rom.tdf
+    Info: Found entity 1: rom
+Warning: Can't analyze file -- file ../stuff/test.v is missing
+Info: Found 1 design units, including 1 entities, in source file tsundere2.bdf
+    Info: Found entity 1: Tsundere2
+Info: Found 1 design units, including 1 entities, in source file tsunderefinal.bdf
+    Info: Found entity 1: TsundereFinal
+Info: Elaborating entity "Tsundere2" for the top level hierarchy
+Info: Elaborating entity "lpm_bustri0" for hierarchy "lpm_bustri0:inst9"
+Info: Elaborating entity "lpm_bustri" for hierarchy "lpm_bustri0:inst9|lpm_bustri:lpm_bustri_component"
+Info: Elaborated megafunction instantiation "lpm_bustri0:inst9|lpm_bustri:lpm_bustri_component"
+Info: Instantiated megafunction "lpm_bustri0:inst9|lpm_bustri:lpm_bustri_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_BUSTRI"
+    Info: Parameter "LPM_WIDTH" = "8"
+Info: Elaborating entity "lpm_mux0" for hierarchy "lpm_mux0:inst"
+Info: Elaborating entity "lpm_mux" for hierarchy "lpm_mux0:inst|lpm_mux:lpm_mux_component"
+Info: Elaborated megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component"
+Info: Instantiated megafunction "lpm_mux0:inst|lpm_mux:lpm_mux_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_MUX"
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_SIZE" = "8"
+    Info: Parameter "LPM_WIDTHS" = "3"
+Info: Elaborating entity "bypassff" for hierarchy "lpm_mux0:inst|lpm_mux:lpm_mux_component|bypassff:sel_latency_ff[0]"
+Info: Elaborated megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component|bypassff:sel_latency_ff[0]", which is child of megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component"
+Info: Elaborating entity "altshift" for hierarchy "lpm_mux0:inst|lpm_mux:lpm_mux_component|altshift:external_latency_ffs"
+Info: Elaborated megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component|altshift:external_latency_ffs", which is child of megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component"
+Info: Elaborating entity "muxlut" for hierarchy "lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010"
+Info: Elaborated megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010", which is child of megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component"
+Info: Elaborating entity "muxlut" for hierarchy "lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00012"
+Info: Elaborated megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00012", which is child of megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component"
+Info: Elaborating entity "muxlut" for hierarchy "lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00016"
+Info: Elaborated megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component|muxlut:$00010|muxlut:$00016", which is child of megafunction instantiation "lpm_mux0:inst|lpm_mux:lpm_mux_component"
+Info: Elaborating entity "A0rom" for hierarchy "A0rom:inst1"
+Info: Elaborating entity "lpm_constant" for hierarchy "A0rom:inst1|lpm_constant:lpm_constant_component"
+Info: Elaborated megafunction instantiation "A0rom:inst1|lpm_constant:lpm_constant_component"
+Info: Instantiated megafunction "A0rom:inst1|lpm_constant:lpm_constant_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_CONSTANT"
+    Info: Parameter "LPM_HINT" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_CVALUE" = "160"
+Info: Elaborating entity "8Crom" for hierarchy "8Crom:inst2"
+Info: Elaborating entity "lpm_constant" for hierarchy "8Crom:inst2|lpm_constant:lpm_constant_component"
+Info: Elaborated megafunction instantiation "8Crom:inst2|lpm_constant:lpm_constant_component"
+Info: Instantiated megafunction "8Crom:inst2|lpm_constant:lpm_constant_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_CONSTANT"
+    Info: Parameter "LPM_HINT" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_CVALUE" = "140"
+Info: Elaborating entity "40rom" for hierarchy "40rom:inst3"
+Info: Elaborating entity "lpm_constant" for hierarchy "40rom:inst3|lpm_constant:lpm_constant_component"
+Info: Elaborated megafunction instantiation "40rom:inst3|lpm_constant:lpm_constant_component"
+Info: Instantiated megafunction "40rom:inst3|lpm_constant:lpm_constant_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_CONSTANT"
+    Info: Parameter "LPM_HINT" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_CVALUE" = "64"
+Info: Elaborating entity "00rom" for hierarchy "00rom:inst4"
+Info: Elaborating entity "lpm_constant" for hierarchy "00rom:inst4|lpm_constant:lpm_constant_component"
+Info: Elaborated megafunction instantiation "00rom:inst4|lpm_constant:lpm_constant_component"
+Info: Instantiated megafunction "00rom:inst4|lpm_constant:lpm_constant_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_CONSTANT"
+    Info: Parameter "LPM_HINT" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_CVALUE" = "0"
+Info: Elaborating entity "80rom" for hierarchy "80rom:inst6"
+Info: Elaborating entity "lpm_constant" for hierarchy "80rom:inst6|lpm_constant:lpm_constant_component"
+Info: Elaborated megafunction instantiation "80rom:inst6|lpm_constant:lpm_constant_component"
+Info: Instantiated megafunction "80rom:inst6|lpm_constant:lpm_constant_component" with the following parameter:
+    Info: Parameter "LPM_TYPE" = "LPM_CONSTANT"
+    Info: Parameter "LPM_HINT" = "ENABLE_RUNTIME_MOD=NO"
+    Info: Parameter "LPM_WIDTH" = "8"
+    Info: Parameter "LPM_CVALUE" = "128"
+Info: Implemented 35 device resources after synthesis - the final resource count might be different
+    Info: Implemented 17 input pins
+    Info: Implemented 9 output pins
+    Info: Implemented 9 macrocells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 208 megabytes
+    Info: Processing ended: Mon Aug 27 13:43:10 2012
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:02
+
+

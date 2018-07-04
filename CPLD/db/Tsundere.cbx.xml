@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Tsundere">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tsundere2|00rom:inst4|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tsundere2|80rom:inst6|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_2g6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tsundere2|A0rom:inst1|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_bh6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tsundere2|lpm_mux0:inst|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_fbc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tsundere2|00rom:inst5|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tsundere2|40rom:inst3|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_uf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Tsundere2|8Crom:inst2|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_lh6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

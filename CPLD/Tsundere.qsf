@@ -1,0 +1,140 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# Date created = 17:29:42  October 31, 2010
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Tsundere_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX3000A
+set_global_assignment -name DEVICE "EPM3032ATC44-10"
+set_global_assignment -name TOP_LEVEL_ENTITY Tsundere2
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:29:42  OCTOBER 31, 2010"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MISC_FILE "D:/Altera/91sp2/quartus/Tsundere.dpf"
+set_global_assignment -name IGNORE_CLOCK_SETTINGS ON
+set_global_assignment -name FMAX_REQUIREMENT "1.27 MHz"
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name INCREMENTAL_COMPILATION OFF
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 10
+set_global_assignment -name BDF_FILE TsundereFIFO.bdf
+set_global_assignment -name BDF_FILE Tsundere.bdf
+set_global_assignment -name AHDL_FILE 00rom.tdf
+set_global_assignment -name AHDL_FILE 40rom.tdf
+set_global_assignment -name AHDL_FILE 80rom.tdf
+set_global_assignment -name AHDL_FILE 8Crom.tdf
+set_global_assignment -name AHDL_FILE A0rom.tdf
+set_global_assignment -name AHDL_FILE lpm_bustri0.tdf
+set_global_assignment -name AHDL_FILE lpm_constant0.tdf
+set_global_assignment -name AHDL_FILE lpm_constant1.tdf
+set_global_assignment -name AHDL_FILE lpm_constant2.tdf
+set_global_assignment -name AHDL_FILE lpm_constant3.tdf
+set_global_assignment -name AHDL_FILE lpm_dff0.tdf
+set_global_assignment -name AHDL_FILE lpm_dff1.tdf
+set_global_assignment -name AHDL_FILE lpm_mux0.tdf
+set_global_assignment -name AHDL_FILE lpm_shiftreg0.tdf
+set_global_assignment -name AHDL_FILE rom.tdf
+set_global_assignment -name QIP_FILE lpm_bustri0.qip
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name QIP_FILE rom.qip
+set_global_assignment -name QIP_FILE //storage01/jlupinsk/public_html/lpm_constant0.qip
+set_global_assignment -name QIP_FILE lpm_constant0.qip
+set_global_assignment -name QIP_FILE lpm_constant1.qip
+set_global_assignment -name QIP_FILE lpm_constant2.qip
+set_global_assignment -name QIP_FILE lpm_constant3.qip
+set_global_assignment -name QIP_FILE A0rom.qip
+set_global_assignment -name QIP_FILE 8Crom.qip
+set_global_assignment -name QIP_FILE 40rom.qip
+set_global_assignment -name QIP_FILE 00rom.qip
+set_global_assignment -name QIP_FILE 80rom.qip
+set_global_assignment -name QIP_FILE lpm_shiftreg0.qip
+set_global_assignment -name VERILOG_FILE ../stuff/test.v
+set_global_assignment -name QIP_FILE lpm_dff0.qip
+set_global_assignment -name QIP_FILE lpm_dff1.qip
+set_global_assignment -name QIP_FILE lpm_fifo0.qip
+set_global_assignment -name QIP_FILE lpm_latch0.qip
+set_global_assignment -name QIP_FILE lpm_fifo1.qip
+set_global_assignment -name QIP_FILE lpm_mux1.qip
+set_global_assignment -name QIP_FILE lpm_or0.qip
+set_global_assignment -name QIP_FILE lpm_constant4.qip
+set_global_assignment -name BDF_FILE Tsundere2.bdf
+set_global_assignment -name QIP_FILE lpm_latch1.qip
+set_global_assignment -name QIP_FILE lpm_mux2.qip
+set_global_assignment -name QIP_FILE lpm_latch2.qip
+set_global_assignment -name QIP_FILE lpm_latch3.qip
+set_global_assignment -name QIP_FILE dcfifo0.qip
+set_global_assignment -name QIP_FILE lpm_fifo_dc0.qip
+set_global_assignment -name QIP_FILE lpm_fifo_dc1.qip
+set_global_assignment -name QIP_FILE lpm_dff2.qip
+set_global_assignment -name QIP_FILE lpm_dff3.qip
+set_global_assignment -name QIP_FILE lpm_shiftreg1.qip
+set_global_assignment -name QIP_FILE dcfifo1.qip
+set_global_assignment -name QIP_FILE lpm_fifo_dc2.qip
+set_global_assignment -name QIP_FILE scfifo0.qip
+set_global_assignment -name QIP_FILE scfifo1.qip
+set_global_assignment -name QIP_FILE lpm_dff4.qip
+set_global_assignment -name MISC_FILE "D:/altera/91sp2/quartus/projects/tsundere/Tsundere.dpf"
+set_global_assignment -name BDF_FILE TsundereFinal.bdf
+set_global_assignment -name DEVICE_FILTER_PACKAGE "ANY QFP"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 44
+set_location_assignment PIN_2 -to data[0]
+set_location_assignment PIN_3 -to data[1]
+set_location_assignment PIN_5 -to data[2]
+set_location_assignment PIN_6 -to data[3]
+set_location_assignment PIN_8 -to data[4]
+set_location_assignment PIN_10 -to data[5]
+set_location_assignment PIN_12 -to data[6]
+set_location_assignment PIN_13 -to data[7]
+set_location_assignment PIN_14 -to Interrupt
+set_location_assignment PIN_21 -to D[0]
+set_location_assignment PIN_22 -to D[1]
+set_location_assignment PIN_23 -to D[2]
+set_location_assignment PIN_25 -to D[3]
+set_location_assignment PIN_27 -to D[4]
+set_location_assignment PIN_28 -to D[5]
+set_location_assignment PIN_31 -to D[6]
+set_location_assignment PIN_33 -to D[7]
+set_location_assignment PIN_44 -to addin[0]
+set_location_assignment PIN_43 -to addin[1]
+set_location_assignment PIN_42 -to addin[2]
+set_location_assignment PIN_35 -to addin[3]
+set_location_assignment PIN_34 -to addin[4]
+set_location_assignment PIN_18 -to A[0]
+set_location_assignment PIN_19 -to A[1]
+set_location_assignment PIN_20 -to A[2]
+set_location_assignment PIN_15 -to /CE
