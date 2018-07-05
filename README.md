@@ -9,4 +9,3 @@ It's been a while since I worked on this. I'm sorry about the CPLD part, it was 
 ![schematic](chip-maestro-schematic.png)
 ![board](chip-maestro-board.png)
 ![photo](chip-maestro-photo.jpg)
-![label](chip-maestro-label.pdf)
